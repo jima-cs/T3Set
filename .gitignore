@@ -5,7 +5,6 @@ code/eval_scripts/.idea
 /data
 /mvenv
 ignore_notes/
-*.pth
 *.pyc
 /scripts/.env
 /models/outputs

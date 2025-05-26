@@ -18,6 +18,7 @@ The whole dataset consists of 32 amateur players, 380 multi-ball training rounds
 ## Dataset
 Our dataset could be accessed through the Zenodo link:
 XXX
+* All participants signed informed consent forms and authorized open-source usage. The experimental procedure was approved by the laboratory's ethics review.*
 
 ## Model and Script
 We provide the model and script for the T3Set dataset. Please refer to corresponding folders.
