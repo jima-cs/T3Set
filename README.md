@@ -1,11 +1,12 @@
 # T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training
-
+About
+This is the official repository for KDD'25 (dataset and benchmark track) paper.  
 <p align="center">
 <img width="800" src="./static/images/overview.png"/>
 </p>
 
 ## Overview
-T3Set is a multimodal dataset with aligned video-sensor-text data in table tennis training.
+T3Set (<b>T</b>able <b>T</b>ennis <b>T</b>raining) is a multimodal dataset with aligned video-sensor-text data in table tennis training.
 
 The key features of T3Set include 
 - (1) temporal alignment between sensor data, video data, and text data. 
@@ -19,6 +20,8 @@ The whole dataset consists of 32 amateur players, 380 multi-ball training rounds
 Our dataset could be accessed through the Zenodo link:
 XXX
 * All participants signed informed consent forms and authorized open-source usage. The experimental procedure was approved by the laboratory's ethics review.*
+
+Dataset License: CC BY-NC-ND 4.0
 
 ## Model and Script
 We provide the model and script for the T3Set dataset. Please refer to corresponding folders.
