@@ -18,4 +18,4 @@ The code for the fusion model in Stage 1 will be provided upon acceptance.
 For a comprehensive view of the data construction and processing workflow, please refer to Chapter 3 of our paper.
 
 ## License
-CC BY-NC-ND 4.0
+CC BY-NC-SA 4.0

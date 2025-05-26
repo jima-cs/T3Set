@@ -12,4 +12,4 @@ Please refer to the Chapter 3 of our paper for more details.
 The script order can not completely demonstrate the data construction and processing flow. 
 For a more clear interpretation, please refer to Chapter 3 of the paper.
 # License
-CC BY-NC-ND 4.0
+CC BY-NC-SA 4.0

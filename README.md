@@ -16,15 +16,17 @@ T3Set covers seven commonly used techniques in table tennis (i.e., attack, block
 The whole dataset consists of 32 amateur players, 380 multi-ball training rounds, 8,655 strokes, and a total of 8,395 pieces of professional suggestions from coaches. 
 
 ## Dataset
-Our dataset could be accessed through the Zenodo link:
-XXX
+Our dataset could be accessed through the `Zenodo` link:
+https://zenodo.org/records/15516144
 
 *All participants signed informed consent forms and authorized open-source usage. The experimental procedure was approved by the laboratory's ethics review.*
 
-Dataset License: CC BY-NC-ND 4.0
+Dataset License: CC BY-NC-SA 4.0
 
 ## Model and Script
 We provide the model and script for the T3Set dataset. Please refer to corresponding folders.
+
+Code License: CC BY-NC-SA 4.0
 
 ## Citation
 If you find our work useful, please consider citing our paper:

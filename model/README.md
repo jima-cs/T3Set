@@ -9,4 +9,4 @@ Other packages please refer to `requirements.txt`
 We provide a weight file for the model in `./weights`
 
 ## License
-CC BY-NC-ND 4.0
+CC BY-NC-SA 4.0
