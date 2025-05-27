@@ -2,10 +2,10 @@
 *Official Repository for [KDD'25](https://kdd2025.kdd.org/) (Dataset and Benchmark Track) Paper "A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training "*  
 
 <div align="center">
-  <img width="800" src="./static/images/overview.png" alt="Dataset Overview"/>  
-  <br>
   <a href="https://zenodo.org/records/15516144"><img src="https://img.shields.io/badge/Zenodo-Dataset-blue?style=flat-square&logo=zenodo" alt="Zenodo"/></a>  
   <a href="https://doi.org/10.1145/3711896.3737407"><img src="https://img.shields.io/badge/DOI-10.1145/3711896.3737407-orange?style=flat-square&logo=doi" alt="DOI"/></a>  
+  <br>
+    <img width="800" src="./static/images/overview.png" alt="Dataset Overview"/>  
 </div>  
 
 
@@ -39,8 +39,8 @@ https://doi.org/10.5281/zenodo.15516143
 ```  
 
 ⚠️ **Ethics Statement**:  
-- All participants provided informed consent for open-source usage  
-- Experimental procedures approved by the laboratory ethics review committee  
+- All participants provided informed consent for open-source usage.
+- Experimental procedures approved by the laboratory ethics review committee.
 
 
 ## 💻  Model and Scripts  
@@ -83,4 +83,3 @@ Thanks to all players and coaches involved in data collection!
 ## 📢 Contact  
 For questions or collaborations, contact:  
 - Ji Ma: zjumaji@zju.edu.cn  
-```  
