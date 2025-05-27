@@ -1,43 +1,86 @@
-# T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training
-This is the official repository for KDD'25 (dataset and benchmark track) paper.  
-<p align="center">
-<img width="800" src="./static/images/overview.png"/>
-</p>
+# T3Set:  Table Tennis Training
+*Official Repository for [KDD'25](https://kdd2025.kdd.org/) (Dataset and Benchmark Track) Paper "A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training "*  
 
-## Overview
-T3Set (<b>T</b>able <b>T</b>ennis <b>T</b>raining) is a multimodal dataset with aligned video-sensor-text data in table tennis training.
+<div align="center">
+  <img width="800" src="./static/images/overview.png" alt="Dataset Overview"/>  
+  <br>
+  <a href="https://zenodo.org/records/15516144"><img src="https://img.shields.io/badge/Zenodo-Dataset-blue?style=flat-square&logo=zenodo" alt="Zenodo"/></a>  
+  <a href="https://doi.org/10.1145/3711896.3737407"><img src="https://img.shields.io/badge/DOI-10.1145/3711896.3737407-orange?style=flat-square&logo=doi" alt="DOI"/></a>  
+</div>  
 
-The key features of T3Set include 
-- temporal alignment between sensor data, video data, and text data. 
-- high-quality targeted suggestions which are consistent with predefined suggestion taxonomy.
 
-## Data Statistics
-T3Set covers seven commonly used techniques in table tennis (i.e., attack, block, flick, pendulum, push, short, topspin). 
-The whole dataset consists of 32 amateur players, 380 multi-ball training rounds, 8,655 strokes, and a total of 8,395 pieces of professional suggestions from coaches. 
+## 🌟 Overview  
+T3Set (<b>T</b>able <b>T</b>ennis <b>T</b>raining) is a multimodal dataset with aligned video-sensor-text data in table tennis training, designed for LLM-based virtual coach research.  
 
-## Dataset
-Our dataset could be accessed through the `Zenodo` link:
+### Key Features  
+-  Temporal alignment between sensor data (IMU), multi-angle video, and professional coaching text  
+-  High-quality targeted suggestions following a predefined suggestion taxonomy
+
+
+## 📊 Data Statistics  
+| Dimension            | Details                                                                                                         |  
+|----------------------|-----------------------------------------------------------------------------------------------------------------|  
+| Participants         | 32 amateur players                                                                                              |  
+| Training Rounds      | 380 multi-ball training rounds                                                                                  |  
+| Strokes              | 8,655 labeled strokes                                                                                           |  
+| Technique            | 7 common techniques (topspin, block, etc.)                                                                      |
+| Targeted Suggestions | 8,395 coach suggestions                                                                                         |  
+| Modal Data           | - Video: 1080p@60fps, two-camera <br>- Sensor: 9-axis IMU (100Hz sampling) <br>- Audio: coaches' audio and text |  
+
+
+
+## 📦 Dataset Access  
+The dataset is publicly available on [Zenodo](https://zenodo.org/records/15516144):  
+```shell
+# Access link
 https://zenodo.org/records/15516144
+# Permanent DOI link  
+https://doi.org/10.5281/zenodo.15516143  
+```  
 
-*All participants signed informed consent forms and authorized open-source usage. The experimental procedure was approved by the laboratory's ethics review.*
+⚠️ **Ethics Statement**:  
+- All participants provided informed consent for open-source usage  
+- Experimental procedures approved by the laboratory ethics review committee  
 
-Dataset License: CC BY-NC-SA 4.0
 
-## Model and Script
-We provide the model and script for the T3Set dataset. Please refer to corresponding folders.
+## 💻  Model and Scripts  
+### Directory Structure  
+```  
+T3Set/  
+├─ models/            # A simple model to validate the usage of dataset 
+│  ├─ src/        # src code
+│  ├─ weights/     # Pre-trained weights 
+│  ├─ requirements.txt     # required packages  
+│  └─ README.md              # usage instructions
+├─ scripts/           # Data processing & evaluation scripts  
+│  ├─ data_scripts/  # scripts for building dataset (stroke detection, data alignment, text preprocessing)  
+│  └─ eval_scripts/  # Benchmark testing script 
+├─ README.md          # Project overview
+└─ LICENSE            # License information
 
-Code License: CC BY-NC-SA 4.0
+```  
 
-## Citation
-If you find our work useful, please consider citing our paper:
-```
+
+## 📖 Citation  
+If you find this dataset useful, please cite our paper:  
+```bibtex  
 @inproceedings{
     ma2025t3set,
     title={T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training},
     author={Ji Ma and Jiale Wu and Haoyu Wang and Yanze Zhang and Xiao Xie and Zheng Zhou and Jiachen Wang and Yingcai Wu},
     year={2025},
-    booktitle={Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining},
-    pages={},
+    booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
     doi={10.1145/3711896.3737407}
-    }
-```
+    pages={}
+}  
+```  
+
+
+## 🤝 Acknowledgments  
+Thanks to all players and coaches involved in data collection!
+
+
+## 📢 Contact  
+For questions or collaborations, contact:  
+- Ji Ma: zjumaji@zju.edu.cn  
+```  
