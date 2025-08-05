@@ -42,6 +42,12 @@ https://doi.org/10.5281/zenodo.15516143
 - All participants provided informed consent for open-source usage.
 - Experimental procedures approved by the laboratory ethics review committee.
 
+## 📃Paper Access
+The paper is available on [ACM DL](https://dl.acm.org/doi/10.1145/3711896.3737407):
+```shell
+# Access link
+https://dl.acm.org/doi/10.1145/3711896.3737407
+``` 
 
 ## 💻  Model and Scripts  
 ### Directory Structure  
@@ -67,11 +73,13 @@ If you find this dataset useful, please cite our paper:
 @inproceedings{
     ma2025t3set,
     title={T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training},
-    author={Ji Ma and Jiale Wu and Haoyu Wang and Yanze Zhang and Xiao Xie and Zheng Zhou and Jiachen Wang and Yingcai Wu},
+    author = {Ma, Ji and Wu, Jiale and Wang, Haoyu and Zhang, Yanze and Xie, Xiao and Zhou, Zheng and Zhang, Hui and Wang, Jiachen and Wu, Yingcai},
     year={2025},
-    booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+    booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
     doi={10.1145/3711896.3737407}
-    pages={}
+    pages = {5686–5697},
+    numpages = {12},
+    publisher = {Association for Computing Machinery}
 }  
 ```  
 
