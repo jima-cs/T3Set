@@ -70,17 +70,19 @@ T3Set/
 ## 📖 Citation  
 If you find this dataset useful, please cite our paper:  
 ```bibtex  
-@inproceedings{
-    ma2025t3set,
-    title={T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training},
-    author = {Ma, Ji and Wu, Jiale and Wang, Haoyu and Zhang, Yanze and Xie, Xiao and Zhou, Zheng and Zhang, Hui and Wang, Jiachen and Wu, Yingcai},
-    year={2025},
-    booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
-    doi={10.1145/3711896.3737407}
-    pages = {5686–5697},
-    numpages = {12},
-    publisher = {Association for Computing Machinery}
-}  
+@inproceedings{ma2025t3set,
+author = {Ma, Ji and Wu, Jiale and Wang, Haoyu and Zhang, Yanze and Xie, Xiao and Zhou, Zheng and Zhang, Hui and Wang, Jiachen and Wu, Yingcai},
+title = {T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3711896.3737407},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+pages = {5686–5697},
+numpages = {12},
+location = {Toronto ON, Canada},
+series = {KDD '25}
+}
 ```  
 
 
